@@ -23,7 +23,7 @@ bool ll_has_cycle(node *head) {
 
         turtle = turtle -> next;
 
-        if(hare==turtle) {
+        if(hare == turtle) {
             return true;
         }
     }
