@@ -5,6 +5,7 @@
 
 using Word = unsigned int;
 
+
 constexpr Word IMM       = 3;
 constexpr Word IMM_U     = 1;
 constexpr Word IMM_S     = 12;
@@ -51,6 +52,3 @@ constexpr Word LUI    = 0b00000000000000000001011110110111;
 // UJ: imm = 122
 constexpr Word JAL    = 0b00000111101000000000011111101111;
 constexpr Word JALR   = 0b00000111101000001000011111100111;
-
-
-
